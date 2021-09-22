@@ -3,9 +3,9 @@ Ideas and roadmaps for Pioneer
 
 
 * One time use hyperdrive
-    limited range 10ly?
-    change device from "unused" to "burnt out" after use
-    small mass (1t)
+- limited range 10ly?
+- change device from "unused" to "burnt out" after use
+- small mass (1t)
 
 
 * mass transit overflow missions to nearby stars <10ly
