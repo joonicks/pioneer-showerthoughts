@@ -16,7 +16,7 @@ Ideas and roadmaps for Pioneer
 
 * large cargo missions (~100t?)
 
-* passenger + cargo at once missions
+* both passenger + cargo at once missions
 
 * push fuel scooping as an event in lua instead of just adding hydrogen to cargo in C++
 
@@ -26,6 +26,8 @@ Ideas and roadmaps for Pioneer
 
 * rework engines to base everything on ISP instead of the current mishmash
     make ISP a difficulty setting
+    Monatomic Hydrogen Ion Drive: ISP = 200 000 - 15 000 000.
+    ideal photonic 30,000,000
 
 * make lua SpaceStation:Constructor() call "setDefaultStationProperties()"
     check each unique station for a custom settings json file
