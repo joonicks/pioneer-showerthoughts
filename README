@@ -28,9 +28,24 @@ Ideas and roadmaps for Pioneer
     make ISP a difficulty setting
     Monatomic Hydrogen Ion Drive: ISP = 200 000 - 15 000 000.
     ideal photonic 30,000,000
+    make thrusters replacable, make default thrusters start at 80-90% efficiency
 
 * make lua SpaceStation:Constructor() call "setDefaultStationProperties()"
     check each unique station for a custom settings json file
     set unique station identifier as "station charter license nr#"
     allow license to be visually overriden, like "Unlicensed"
     read Lore text from the same json file
+
+* during galaxy creation, add "population pressure" so that stars
+  within sublight range of earth are much more likely to be colonized & populated
+    (colonizing age start - now) / 10 (10 years per lightyear at 10% of c) = sublight max range
+    population growth calculated from colonists on ship (~100-200k) times 1.2-1.8/20years of arrival
+    news stories about colony ships arriving at ~sublightmaxrange
+
+* add a "Musk" station to Mars
+
+* allow equipment to be repackaged into cargo for transport
+
+* make planets where rubbish is an import with a positive price
+    + radioactives
+    planet with enormous energy surplus, not orbital stations

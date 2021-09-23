@@ -1,0 +1,13 @@
+
+
+[  ]   Do you have the Copyrights to copy and distribute the file?
+
+[  ]   Is the filename and location relevant to its function?
+
+[  ]   Can the contents be easily modded by multiple mods without conflicting?
+
+[  ]   Is it a configuration file?
+
+       [  ] ... is it in json or lua?
+
+       [  ] ... or do you have a very strong reason to use a different format?
