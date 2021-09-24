@@ -49,3 +49,9 @@ Ideas and roadmaps for Pioneer
 * make planets where rubbish is an import with a positive price
     + radioactives
     planet with enormous energy surplus, not orbital stations
+
+* OUTSIDE MY CAPABILITIES: strip out "create new game" code and make new games be loading a savegame
+
+* game settings by double-clicking pause-button
+
+* make star systems in logbook clickable to set as destination
