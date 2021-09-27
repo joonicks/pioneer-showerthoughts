@@ -1,6 +1,5 @@
-# pioneer-showerthoughts
-Ideas and roadmaps for Pioneer
 
+============================================= Ideas and roadmaps for Pioneer =============================================
 
 * One time use hyperdrive
     limited range 10ly?
@@ -51,7 +50,23 @@ Ideas and roadmaps for Pioneer
     planet with enormous energy surplus, not orbital stations
 
 * OUTSIDE MY CAPABILITIES: strip out "create new game" code and make new games be loading a savegame
+    gets rid of redundant code: if you can load a game you can "start a new game"
 
 * game settings by double-clicking pause-button
 
 * make star systems in logbook clickable to set as destination
+
+* new mission: rotate worker crew, transport # crew there and # crew back for shoreleave
+    rotate crew to barnards star, obtain permit
+
+* unlisted stations
+    covert, crime, pirates, naval...
+
+* "traderoutes" highlighted in sectorview like for the core systems in Elite II
+    missions more often available for these traderoute systems
+
+* gambling missions
+    future date set for "the draw"
+    legal/illegal depending on faction or economy
+
+* clear button for search dialogues
