@@ -6,12 +6,10 @@
     change device from "unused" to "burnt out" after use
     small mass (1t)
 
-
 * mass transit overflow missions to nearby stars <10ly
     mass transit failed for some reason and X passengers need transit
     make "logical jump destinations" more likely to have "extra" missions
     if the player is going anyways, go with them
-
 
 * large cargo missions (~100t?)
 
@@ -70,3 +68,18 @@
     legal/illegal depending on faction or economy
 
 * clear button for search dialogues
+
+* new building: solar thermal plant
+
+* hire storage bays to store ships and cargo
+
+* upgrade/mods tied to specific ship types
+
+* computer viruses
+    - annoying, plastering ads on flight hud
+    - money drainer
+    - slow down hyperdrive charging
+    crews assigned to computer might detect viruses
+
+* unloading and unloading cargo takes in-game time
+    different ships have different ease of loading
