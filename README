@@ -1,11 +1,7 @@
 
 ============================================= Ideas and roadmaps for Pioneer =============================================
 
-* One time use hyperdrive
-    limited range 10ly?
-    change device from "unused" to "burnt out" after use
-    small mass (1t)
-
+MISSIONS:
 * mass transit overflow missions to nearby stars <10ly
     mass transit failed for some reason and X passengers need transit
     make "logical jump destinations" more likely to have "extra" missions
@@ -15,11 +11,30 @@
 
 * both passenger + cargo at once missions
 
-* push fuel scooping as an event in lua instead of just adding hydrogen to cargo in C++
+* rotate worker crew, transport # crew there and # crew back for shoreleave
+    rotate crew to barnards star, obtain permit
+
+* gambling missions
+    future date set for "the draw"
+    legal/illegal depending on faction or economy
+
+* sample atmosphere
+    requires fuelscoop in lua
+
+GAME ENGINE:
+
+* One time use hyperdrive
+    limited range 10ly?
+    change device from "unused" to "burnt out" after use
+    small mass (1t)
+
+(IN PROGRESS) * push fuel scooping as an event in lua instead of just adding hydrogen to cargo in C++
+    making fuel scooping into a lua event makes possible missions to sample atmospheres
 
 * push lack of cargo life support as lua event instead of handling it in C++
 
 * MAJOR: change mass attributes to kg instead of tonnes
+    load cargo by volume, but still enforce mass limits
 
 * rework engines to base everything on ISP instead of the current mishmash
     make ISP a difficulty setting
@@ -27,7 +42,7 @@
     ideal photonic 30,000,000
     make thrusters replacable, make default thrusters start at 80-90% efficiency
 
-* make lua SpaceStation:Constructor() call "setDefaultStationProperties()"
+(IN PROGRESS) * make lua SpaceStation:Constructor() call "setDefaultStationProperties()"
     check each unique station for a custom settings json file
     set unique station identifier as "station charter license nr#"
     allow license to be visually overriden, like "Unlicensed"
@@ -46,26 +61,22 @@
 * make planets where rubbish is an import with a positive price
     + radioactives
     planet with enormous energy surplus, not orbital stations
+* solar power station on/around sol-mercury
+    set rubbish to positive trade value
+    mercury is energy abundant, perfect for recycling
 
 * OUTSIDE MY CAPABILITIES: strip out "create new game" code and make new games be loading a savegame
     gets rid of redundant code: if you can load a game you can "start a new game"
 
-* game settings by double-clicking pause-button
+(DONE) * game settings by double-clicking pause-button
 
 * make star systems in logbook clickable to set as destination
-
-* new mission: rotate worker crew, transport # crew there and # crew back for shoreleave
-    rotate crew to barnards star, obtain permit
 
 * unlisted stations
     covert, crime, pirates, naval...
 
 * "traderoutes" highlighted in sectorview like for the core systems in Elite II
     missions more often available for these traderoute systems
-
-* gambling missions
-    future date set for "the draw"
-    legal/illegal depending on faction or economy
 
 * clear button for search dialogues
 
@@ -83,3 +94,20 @@
 
 * unloading and unloading cargo takes in-game time
     different ships have different ease of loading
+
+* use decal system to create advertising billboards
+
+* integrated passenger cabins for passenger ships
+
+* shields charging and capacity determined by equipment attributes, not hardcoded
+
+* open lua debug output to a dedicated file instead of output.txt
+
+* graphical jump activation panel:
+
+            ,----------JUMP----------.
+            |      Energy Charge     |
+            [=======>                ]
+            | Trajectory Calculation |
+            [===========>            ]
+            `-------[Activate]-------'
