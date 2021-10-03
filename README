@@ -111,3 +111,16 @@ GAME ENGINE:
             | Trajectory Calculation |
             [===========>            ]
             `-------[Activate]-------'
+
+        energy charge would reach green levels in ~5-10 seconds
+        calculation would reach green levels in about the same,
+        but the longer you let it calculate, the more accurate
+        the jump will become, but each increase in precision will
+        take exponentially longer.
+        - energy charge time could depend on
+            crew skills, hyperdrive (drv charging equipment?)
+            type of fuel used for charging
+            radioactive cargo could cause glitches
+        - trajectory calculation could depend on
+            ship computer, crew kills, having "detailed system charts",
+            being near a gravity well, being in atmosphere
