@@ -21,6 +21,12 @@ MISSIONS:
 * sample atmosphere
     requires fuelscoop in lua
 
+* non-player entries for organisations to communicate with their agents
+    nonsensical crypto-speak stories to convey secret messages, like
+    "Little Red Riding Hood and her daughter escaped last months encounter with Beaver Bob.
+    Big Bad Wolf dispatched and should arrive shortly. Prepare hot porridge and make the beds.
+    Old Man and the Fish still awaiting approval."
+
 GAME ENGINE:
 
 * One time use hyperdrive
@@ -99,7 +105,7 @@ GAME ENGINE:
 
 * integrated passenger cabins for passenger ships
 
-* shields charging and capacity determined by equipment attributes, not hardcoded
+* (IN PROGRESS) shields charging and capacity determined by equipment attributes, not hardcoded
 
 * open lua debug output to a dedicated file instead of output.txt
 
@@ -124,3 +130,13 @@ GAME ENGINE:
         - trajectory calculation could depend on
             ship computer, crew kills, having "detailed system charts",
             being near a gravity well, being in atmosphere
+
+* different levels of cargo hold conversions
+    life support for livestock/slaves/refugees
+    hazmat A for toxic/corrosives
+    hazmat B for explosives/radioactives
+    hazmat C for biological agents
+    hazmat ABC...
+
+* new commodities:
+    nitrogen, ammonia
