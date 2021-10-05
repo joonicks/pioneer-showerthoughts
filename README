@@ -107,7 +107,8 @@ GAME ENGINE:
 
 * (IN PROGRESS) shields charging and capacity determined by equipment attributes, not hardcoded
 
-* open lua debug output to a dedicated file instead of output.txt
+* make possible to redirect lua debug output to a dedicated file instead of output.txt
+    so scripts can have their own output file instead of digging through output.txt
 
 * graphical jump activation panel:
 
